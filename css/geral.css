@@ -1,0 +1,12 @@
+:root {
+    --flex: flex;
+    --center: center;
+    --espaço-entre: space-between;
+    --espaço-igual: space-around;
+    --flex-start: flex-start;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
