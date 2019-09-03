@@ -19,15 +19,25 @@
     <header>
         <nav>
             <div class="container-logo">
-                <img src="/img/HEADER/logo-nav.png" alt="">
+                <img src="img/HEADER/logo-nav.png" alt="ERRO NO CARREGAMENTO">
             </div>
             <div class="menu">
                 <ol>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="bio.html">Bio</a></li>
-                    <li><a href="videos.html">Videos</a></li>
-                    <li><a href="fotos.html">Fotos</a></li>
-                    <li><a href="contato.html">Contato</a></li>
+                    <li>
+                        <a href="index.html"><img src="img/HEADER/home (1).svg" title="Home" width="40px" height="40px"></a>
+                    </li>
+                    <li>
+                        <a href="bio.html"><img src="img/HEADER/bio.svg" title="Bio" width="40px" height="40px"></a>
+                    </li>
+                    <li>
+                        <a href="videos.html"><img src="img/HEADER/video-camera.svg" title="Videos" width="40px" height="40px"></a>
+                    </li>
+                    <li>
+                        <a href="fotos.html"><img src="img/HEADER/photo-of-a-landscape.svg" title="Fotos" width="40px" height="40px"></a>
+                    </li>
+                    <li>
+                        <a href="contato.html"><img src="img/HEADER/envelope.svg" title="Contato" width="40px" height="40px"></a>
+                    </li>
                 </ol>
 
             </div>
@@ -37,10 +47,45 @@
             <div class="sub-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, veritatis. Sapiente assumenda fuga reiciendis recusandae quia exercitationem quibusdam, perferendis rem amet sint saepe consectetur maxime. Aut accusamus saepe ex quas.</div>
         </div>
     </header>
-    <main>
+    <main id="contato">
         <div class="container-contato">
             <div class="title">Contato</div>
+            <h3>O que você achou do site?</h3>
+            <form action="dados.php" method="POST">
+                <input type="radio" name="nota" value="muitobom">Muito Bom
+                <input type="radio" name="nota" value="bom">Bom
+                <input type="radio" name="nota" value="regular">Regular
+                <input type="radio" name="nota" value="ruim">Ruim
+                <input type="radio" name="nota" value="pessimo">Pessimo
+                <h3>O que você mais gostou em nossos videos?</h3>
+
+                <p>
+                    <select name="gostou">
+                <option value="edição">Edição</option>
+                <option value="sonora">Trilha sonora</option>
+                <option value="gravação">Gravação</option>
+                <option value="atuação">Atuação</option>
+                <option value="outras">Outras</option>
+            </select> Outra: <input type="text" name="outra" size="25">
+
+                </p>
+                <h3>Diga como você acha que podemos melhorar nossos videos:</h3>
+                <p>*obs: Se quiser contratar nossos serviços pode digitar aqui também.</p>
+
+                <textarea name="comentario" cols="50" rows="10"></textarea>
+                <h3>Como podemos entrar em contato com vocẽ: </h3>
+                <p>Nome:<input type="text" name="nome" size="45" /></p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp; Email:<input type="text" name="email" size="45"></p>
+                <p>Fone:<input type="text" name="fone" size="45"></p>
+
+                <p><input type="checkbox" name="aceite" size="25" />Quero receber as novidades por e-mail</p>
+                <p>
+                    <input type="submit" value="Enviar Dados" />
+                    <input type="reset" value="Limpar Formulário" />
+                </p>
+            </form>
         </div>
+
     </main>
 
 </body>

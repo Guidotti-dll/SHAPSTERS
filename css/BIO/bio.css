@@ -52,6 +52,7 @@ main .container-bio .bio-lefth .sobre {
     height: 80%;
     margin-right: 100px;
     font-family: 'Livvic', sans-serif;
+    color: #252525;
 }
 
 main .container-bio .bio-lefth .foto .avatar {
@@ -88,6 +89,7 @@ main .container-bio .bio-right .sobre {
     height: 80%;
     margin-left: 100px;
     font-family: 'Livvic', sans-serif;
+    color: #3F3F3F;
 }
 
 main .container-bio .bio-right .foto .avatar {
