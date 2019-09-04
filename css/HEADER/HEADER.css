@@ -135,7 +135,7 @@
         footer .container-footer .logo-dm {
             width: 150px;
             height: 100%;
-            background-image: url("../../img/HEADER/logo.jpg");
+            background-image: url("../../img/HEADER/teste2.png");
             align-items: var(--center);
             display: var(--flex);
             background-size: cover;
@@ -189,4 +189,8 @@
             display: var(--flex);
             justify-content: var(--center);
             align-items: var(--center);
+        }
+        
+        footer .container-footer .eu {
+            font-family: 'Livvic', sans-serif;
         }

@@ -45,4 +45,10 @@ main .container-videos .tabela {
     display: var(--flex);
     justify-content: var(--espaço-igual);
     align-items: var(--espaço-igual);
+    color: #3F3F3F;
+    font-family: 'Livvic', sans-serif;
+}
+
+#ttitle {
+    font-weight: bold;
 }

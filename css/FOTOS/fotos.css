@@ -1,6 +1,6 @@
 main {
     width: 100%;
-    height: 1100px;
+    height: 2100px;
     display: var(--flex);
     justify-content: var(--center);
     padding-bottom: 1300px;
@@ -46,4 +46,89 @@ main .container-fotos .foto {
 
 #foto1 {
     background-image: url("../../img/FOTOS/FOTO1.jpg");
+}
+
+#foto2 {
+    background-image: url("../../img/FOTOS/FOTO2.jpg");
+}
+
+#foto3 {
+    background-image: url("../../img/FOTOS/FOTO3.jpg");
+}
+
+#foto4 {
+    background-image: url("../../img/FOTOS/FOTO4.jpg");
+}
+
+#foto5 {
+    background-image: url("../../img/FOTOS/FOTO5.jpg");
+}
+
+#foto6 {
+    background-image: url("../../img/FOTOS/FOTO6.jpg");
+}
+
+#foto7 {
+    background-image: url("../../img/FOTOS/FOTO7.jpg");
+}
+
+#foto8 {
+    background-image: url("../../img/FOTOS/FOTO8.jpg");
+}
+
+#foto9 {
+    background-image: url("../../img/FOTOS/FOTO9.jpg");
+}
+
+#foto10 {
+    background-image: url("../../img/FOTOS/FOTO10.jpeg");
+}
+
+#foto11 {
+    background-image: url("../../img/FOTOS/FOTO11.jpg");
+}
+
+
+/*#foto12 {
+    background-image: url("../../img/FOTOS/FOTO12.jpg");
+}*/
+
+#foto13 {
+    background-image: url("../../img/FOTOS/FOTO13.jpg");
+}
+
+#foto14 {
+    background-image: url("../../img/FOTOS/FOTO14.jpg");
+}
+
+#foto15 {
+    background-image: url("../../img/FOTOS/FOTO15.jpg");
+}
+
+#foto16 {
+    background-image: url("../../img/FOTOS/FOTO16.jpg");
+}
+
+#foto17 {
+    background-image: url("../../img/FOTOS/FOTO17.jpg");
+}
+
+#foto18 {
+    background-image: url("../../img/FOTOS/FOTO18.jpg");
+}
+
+#foto19 {
+    background-image: url("../../img/FOTOS/FOTO19.jpg");
+}
+
+#foto20 {
+    background-image: url("../../img/FOTOS/FOTO20.jpg");
+}
+
+#foto21 {
+    background-image: url("../../img/FOTOS/FOTO21.jpg");
+}
+
+#foto22 {
+    background-image: url("../../img/FOTOS/FOTO22.jpg");
 }
