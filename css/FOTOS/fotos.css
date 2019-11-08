@@ -1,14 +1,15 @@
 main {
     width: 100%;
-    height: 2100px;
+    /*height: 2100px;*/
+    padding-bottom: 10px;
     display: var(--flex);
     justify-content: var(--center);
-    padding-bottom: 1300px;
 }
 
 main .container-fotos {
     width: 100%;
-    height: 100%;
+    /*height: 100%;*/
+    padding-bottom: 10px;
     margin-top: 65px;
     display: var(--flex);
     justify-content: var(--espaço-igual);
@@ -37,7 +38,6 @@ main .container-fotos .foto {
     justify-content: var(--espaço-entre);
     align-items: var(--center);
     margin-top: 20px;
-    /*background-color: red;*/
     border: 8px solid white;
     box-shadow: 1px 1px 4px black;
     background-position: var(--center);
