@@ -118,7 +118,7 @@
         
         footer {
             width: 100%;
-            height: 70px;
+            height: 5em;
             background-color: #3F3F3F;
             box-shadow: 0 20px 30px -16px rgba(9, 9, 16, .09);
             display: var(--flex);
@@ -140,6 +140,7 @@
             display: var(--flex);
             background-size: cover;
             background-position: center;
+            position: relative;
         }
         
         footer .container-footer .eu {
@@ -148,15 +149,17 @@
             align-items: var(--center);
             justify-content: var(--center);
             display: var(--flex);
-            font-size: 12pt;
+            font-size: 0.88em;
             font-family: 'Livvic', sans-serif;
             color: #ffffff;
+            text-align: var(--center);
         }
         
         footer .container-footer .midias {
-            width: 250px;
+            width: 150px;
             height: 100%;
             display: var(--flex);
+            justify-content: var(--espaço-igual);
         }
         
         footer .container-footer .midias .fb {
@@ -169,22 +172,6 @@
         
         footer .container-footer .midias .yt {
             width: 50%;
-            height: 100%;
-            display: var(--flex);
-            justify-content: var(--center);
-            align-items: var(--center);
-        }
-        
-        footer .container-footer .midias .fb a {
-            width: 100%;
-            height: 100%;
-            display: var(--flex);
-            justify-content: var(--center);
-            align-items: var(--center);
-        }
-        
-        footer .container-footer .midias .yt a {
-            width: 100%;
             height: 100%;
             display: var(--flex);
             justify-content: var(--center);
