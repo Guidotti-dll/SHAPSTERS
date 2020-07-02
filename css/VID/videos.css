@@ -17,7 +17,6 @@ main .container-videos {
 main .container-videos .title {
     width: 100%;
     height: 30px;
-    background-color: rgba(0, 0, 0, 0.0);
     display: var(--flex);
     justify-content: var(--flex-start);
     align-items: var(--center);
@@ -33,10 +32,14 @@ main .container-videos .videos {
     flex-wrap: wrap;
     display: var(--flex);
     justify-content: var(--espaço-igual);
+    align-items: var(--center);
     margin-top: 20px;
     color: #3F3F3F;
     font-family: 'Livvic', sans-serif;
 }
+
+main .container-videos .videos .video {
+} 
 
 main .container-videos .videos iframe {
     border: none;
